@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fitness Gym</title>
+    </head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/b.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    height: auto;
+
+}
+.left{
+
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+.left img{
+    width: 141px;
+    filter: opacity(50%);
+    
+}
+.left div{
+    font-size: 25px;
+    text-align: center;
+
+    
+}
+.mid{
+
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+
+}
+.right{
+
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.navbar li a {
+    color: papayawhip;
+    text-decoration: none;
+    padding: 34px,23px;
+    
+}
+.navbar li a:hover,.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(10, 230, 58);
+}
+.btn{
+    margin: 0px,9px;
+    background-color: black;
+    color: cornsilk;
+    padding: 4px,14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:'Baloo Bhai 2', cursive; ;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgba(209, 81, 7, 0.808);
+}
+.container{
+    padding: 12px;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    
+    
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 275px;
+    padding: 5px;
+    border: 2px solid whitesmoke;
+    margin: 12px auto;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container h1{
+    text-align: center;
+    color: red;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+
+.home{
+    text-align: center;
+    margin: 110px 320px;
+    padding: 22px;
+    width: 51%;
+    border-radius: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.home h1{
+    font-size: 50px;
+    color: wheat;
+    
+}
+.home h2{
+    font-size: 39px;
+    color: wheat;
+}
+.home p{
+    text-align: justify;
+}
+.images{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    margin: 1100px 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 102%;
+    height: 480px;
+    background-color: rgb(207, 202, 202);
+    background-repeat: no-repeat;
+    
+}
+.images h1{
+    text-align: center;
+    font-size: 50px;
+}
+.gallery{
+    margin: 10px;
+    border: 2px solid rgb(5, 5, 5);
+    float: left;
+    width: 310px;
+    height: 300px;
+}
+.gallery:hover {
+  border: 2px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: 250px;
+}
+.desc {
+  padding: 7px;
+  background-color: wheat;
+  text-align: center;
+}
+.desc:hover{
+    background-color: rgb(233, 207, 159);
+}
+.footer{
+    
+    text-align: center;
+    width: 101.80%;
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    height: 350px;
+    background-color: rgb(146, 173, 146);
+    
+}
+.l{
+    position: absolute;
+    left: 40px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 32px;
+    
+
+}
+.m{
+    display: inline-block;
+    
+
+}
+.m img{
+    width: 200px;
+}
+
+.r{
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    font-size: 32px;
+    line-height: 50px;
+    padding-right: 20px;
+    
+    
+}
+</style>
+    <body>
+        <header class="header">
+            <div class="left">
+                <img src="images/l.png" alt="">
+                <div>Pulse Fitness</div>
+
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#homepage" class="active" id="home">Home</a></li>
+                    <li><a href="#photo">Photo Gallery</a></li>
+                    <li><a href="#join">Join Us</a></li>
+                    <li><a href="#about">About Us</a></li>
+
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call US</button>
+                <button class="btn">Email</button>
+            </div>
+        </header>
+        <div class="home" id="homepage">
+            <h2>Start Your Journey with</h2>
+            <h1>Pulse Fitness</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Neque
+                rem fugit expedita rerum quia doloremque quae modi beatae
+                esse
+                reprehenderit! Adipisci saepe quae laboriosam eveniet sed,
+                veritatis dolore recusandae eaque sunt, veniam consequuntur
+                magni cupiditate vero obcaecati quasi. Quo iste impedit
+                minima
+                ea. Hic omnis aperiam commodi, atque quam sit, cumque
+                cupiditate
+                ea architecto, ducimus incidunt vel ipsum accusantium optio
+                consectetur deserunt sapiente nulla consequatur! Sit
+                expedita
+                cupiditate praesentium officia corporis explicabo nisi
+                totam!
+                Illum est assumenda repudiandae aspernatur asperiores, quis
+                neque alias delectus harum suscipit enim sunt ipsum
+                explicabo
+                consequuntur, nihil deleniti pariatur magni velit et earum
+                debitis facere! </p>
+
+        </div>
+        <div class="images" id="photo">
+            <h1>Photo Gallery</h1>
+            <div class="gallery">
+                <a target="_blank"
+                    href="images/studio_profile_8CB0925A436385.png">
+                    <img src="images/studio_profile_8CB0925A436385.png"
+                        alt="Cinque
+                        Terre" width="600" height="400">
+                </a>
+                <div class="desc">Lorem ipsum dolor sit amet.</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank"
+                    href="images/00nyvirus-gyms-facebookJumbo.jpg">
+                    <img src="images/00nyvirus-gyms-facebookJumbo.jpg"
+                        alt="Forest"
+                        width="600" height="400">
+                </a>
+                <div class="desc">Lorem ipsum dolor sit amet.</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="images/unnamed.jpg">
+                    <img src="images/unnamed.jpg" alt="Northern
+                        Lights" width="600" height="400">
+                </a>
+                <div class="desc">Lorem ipsum dolor sit amet.</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="images/b.jpg">
+                    <img src="images/b.jpg"
+                        alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Lorem ipsum dolor sit amet.</div>
+            </div>
+        </div>
+        <div class="container" id="join">
+            <h1>Join best Gym in Nagpur Now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name.">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age.">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Mobile
+                        No.">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email.">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+
+        </div>
+        <footer class="footer" id="about">
+            <h1>About US</h1>
+            <div class="l">
+                <div>Owner:Tejas Jaiswal</div>
+                <div>Established in:1999</div>
+                <div>Adress:Nandanvan, Nagpur,440024</div>
+
+            </div>
+            <div class="r">
+                <div>Contact US</div>
+                <div>9876543210/1234567890</div>
+                <div>Abc@gmail.com</div>
+            </div>
+            <div class="m">
+                <img src="images/logo.png" alt="">
+            </div>
+
+        </footer>
+       
+
+
+
+    </body>
+</html>
